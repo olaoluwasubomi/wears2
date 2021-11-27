@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(homeimages/logo.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,.3);
+}
+
+.head{
+   
+}
+
+
+
+@media screen and (max-width:425px){
+   
+}
