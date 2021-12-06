@@ -24,8 +24,7 @@ nav{
     justify-content:space-between;
     margin:0 auto;
     width:100%;
-    position:sticky;
-    top:0;
+
 }
 a{
     display: block;
