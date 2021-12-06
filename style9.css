@@ -3,6 +3,9 @@
     margin:0;
     box-sizing:border-box;
 }
+html{
+    scroll-behavior:smooth;
+}
 body{
     /* background-image:url(homeimages/logo.jpg); */
     background-repeat:no-repeat;
