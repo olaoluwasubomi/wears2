@@ -20,6 +20,8 @@ nav{
     justify-content:space-between;
     margin:0 auto;
     width:100%;
+    position:sticky;
+    top:0;
 }
 a{
     display: block;
@@ -128,7 +130,7 @@ nav div{
 }
 .image{
     width:10%;
-    max-height:8vh;
+    height:10%;
     border-radius:50px;
     /* border-radius:50%; */
     margin:20px 10px 0;
@@ -178,7 +180,7 @@ nav div{
     }
     .image{
         width:7%;
-        height:9vh;
+        height:7%;
     }
     .review-1{
         width:100%;
@@ -194,7 +196,7 @@ nav div{
     }
     .image{
         width:10%;
-        max-height:8vh;
+        max-height:10%;
     }
 }
 @media screen and (max-width:425px){
@@ -234,7 +236,8 @@ nav div{
         width: 32%;
     }
     .image{
-        width:18%;
+        width:10%;
+        height:10%;
         /* max-height:20vh; */
     }
     .review-text p{
@@ -263,8 +266,8 @@ nav div{
         margin-bottom:2em;
     }
     .image{
-        width:15%;
-        height:13vh;
+        width:20%;
+        height:20%;
     }
     
 }
