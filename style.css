@@ -263,8 +263,7 @@ nav div{
         justify-content:center;
         justify-content:space-between;
         flex-wrap:wrap;
-        /* position:-webkit-sticky; */
-        position:sticky;
+        background:none;
     }
     nav div{
         width:50%;
