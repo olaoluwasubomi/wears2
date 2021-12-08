@@ -10,6 +10,7 @@ body{
     width:100%;
 
 }
+/* FIRST NAV BAR */
 .order{
     background:rgba(0,0,0,.9);
     display:flex;
@@ -60,8 +61,7 @@ body{
     justify-content:space-between;
     margin:0 auto;
     width:77%;
-    color:#fff;
-    
+    color:#fff; 
 }
 .head-2 li{
     list-style:none;
@@ -81,29 +81,11 @@ body{
     color:gray;
     border:2px solid #fff;
     padding:0.5em;
+}
+/* END OF FIRST NAV BAR */
 
-}
-.head-2 li ul{
-    background:black;
-    display:none;
-    position:absolute;
-    width:12%;
-}
-.head-2 li:hover ul{
-    display:block;
-}
-.head-2 ul a{
-    display:block;
-    padding:0.5em;
-    font-style:italic;
-    margin-top:1.4em;
-}
-.head-2 ul a:hover{
-    border:2px solid #fff;
-    background:rgb(214, 209, 209);
-
-}
-.head{
+/* SECOND NAV BAR */
+.pick{
     background:bisque;
     display:flex;
     align-items:center;
@@ -113,28 +95,10 @@ body{
     margin:10px auto;
     position:sticky;
     top:0;
-}
-.head-1{
     display:flex;
     align-items:center;
     justify-content:center;
-    justify-content:space-around;
-    width:15%;
-}
-.head-1 h2{
-    color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:1.3em;
-    text-transform:uppercase;
-    margin:1.5em 0;
-    font-style:italic;
-    padding-left:0.2em
-}
-.pick{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    width:60%;
+    /* width:60%; */
     justify-content:space-between;
     margin:auto;
 }
@@ -151,7 +115,9 @@ body{
     font-size:1.2em;
     font-weight:bold;
 }
+/* END OF SECOND NAV BAR */
 
+/* THE MALE SHOES , FEMALE AND CHILDREN SECTION */
 .mal{
     background:rgb(172, 170, 170);
     padding:0.5em;
@@ -218,6 +184,7 @@ body{
     justify-content:space-between;
     /* flex-direction:column; */
 }
+/* END OF MALE, FEMALE AND CHILDREN SHOES SECTION */
 .up{
     text-align: center;
 }
@@ -255,6 +222,7 @@ body{
     body{
         width:100%;
     }
+    /* FIRST NAV BAR */
     .order{
         flex-direction:column;
     }
@@ -285,6 +253,9 @@ body{
     .head-1 h2{
         font-size:1.5em;
     }
+    /* END OF FIRST NAV BAR*/
+
+    /* SECOND NAV BAR */
     .pick{
         width:100%
     }
@@ -294,6 +265,9 @@ body{
     nav{
         width:100%;
     }
+    /* END OF SECOND NAV BAR */
+
+    /* THE MALE, FEMALE AND CHILDREN SHOES SECTION */
     .mal{
         margin-top:10px;
     }
@@ -314,6 +288,7 @@ body{
     .remove{
         display:none;
     }
+    /* END OF MALE ,FEMALE AND CHILDREN SHOES SECTION */
     .up-1{
         width:70%;
     }

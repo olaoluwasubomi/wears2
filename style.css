@@ -1,3 +1,4 @@
+/* THE HOME PAGE */
 *{
     padding:0;
     margin:0;
@@ -10,6 +11,7 @@ body{
     position:relative;
     width:100%;
 }
+/* THE NAV BAR */
 .head{
     background-image:url(homeimages/background-2.jpg);
     background-repeat:no-repeat;
@@ -93,26 +95,9 @@ nav div{
     padding:0.5em;
 
 }
-.head-2 li ul{
-    background:black;
-    display:none;
-    position:absolute;
-    width:12%;
-}
-.head-2 li:hover ul{
-    display:block;
-}
-.head-2 ul a{
-    display:block;
-    padding:0.5em;
-    font-style:italic;
-    margin-top:1.4em;
-}
-.head-2 ul a:hover{
-    border:2px solid #fff;
-    background:rgb(214, 209, 209);
+/* END OF NAV BAR */
 
-}
+/* THE HOME TEXT */
 .head-3{
     margin-top:6.2rem;
     color:#fff;
@@ -142,19 +127,6 @@ nav div{
     color:gray;
     font-size:2.5rem;
 }
-.head-3-text{
-    text-transform:capitalize;
-    margin-top:1.12em;
-    margin-left:2.8em;
-    font-size:1.13em;
-}
-.head-3 span{
-    display:block;
-    text-transform:capitalize;
-    align-items:end;
-    margin-left:60em;
-    margin-top:1.3em;
-}
 .head-4 p:nth-child(1){
     color:#fff;
     text-transform:capitalize;
@@ -163,12 +135,9 @@ nav div{
     font-style:italic;
     width:30%;
     text-align:center;
-    margin-top:1em;
-    /* background:gray; */
     border:2px solid gray;
     padding:1em;
-    margin-left:2em;
-    margin:auto;
+    margin:1em auto ;
 }
 .head-4-text{
     color:#fff;
@@ -180,10 +149,11 @@ nav div{
     font-size:19px;
     font-style:italic;
 }
+/* END OF HOME TEXT */
 
+/* THE CONTACT */
 .contact{
     margin:3em auto 0;
-    /* background:red; */
 }
 .contact-text{
     color:#fff;
@@ -217,7 +187,7 @@ nav div{
     padding:10px;
     font-style:italic;
 }
-
+/* END OF CONTACT */
 .up{
     text-align: center;
 }
@@ -251,11 +221,13 @@ nav div{
     margin:1em auto 0;
     /* margin:1em; */
 }
+/* END OF THE HOME PAGE */
 
 @media screen and (max-width:970px){
     body{
         width:100%;
     }
+    /* THE NAV BAR */
     nav{
         flex-direction:column;
         width:100%;
@@ -276,7 +248,7 @@ nav div{
         color:#fff;
     }
     .head-1 img{
-        width:35%;
+        width:20%;
     }
     .head-1 h3{
         transition:all;
@@ -313,6 +285,9 @@ nav div{
     .remove-1{
         display:none;
     }
+    /* END OF NAV BAR */
+
+    /* THE HOME TEXT */
     .head-3{
         margin-top:2rem;
         width:100%;
@@ -358,6 +333,9 @@ nav div{
     .head-4-text{
         display:none;
     }
+    /* END OF HOME TEXT */
+
+    /* THE CONTACT */
     .contact{
         margin:3em auto 0;
     }
@@ -382,6 +360,5 @@ nav div{
         width:70%;
         text-align:center;
     }
-
-
+    /* END OF CONTACT */
 }
