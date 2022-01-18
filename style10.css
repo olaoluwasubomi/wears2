@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.order{
+    background:rgba(0,0,0,.9);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    margin:0px auto;
+    width:100%;
+}
+.order a{
+    display: block;
+}
+.order div{
+    margin:1.3em;
+    /* width:90%; */
+}
+.head-6{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content: space-between;
+    width:13%;
+    color:#fff;
+}
+.head-6 img{
+    width:25%;
+    border-radius:50em;
+}
+.head-6 h3{
+    text-transform:uppercase;
+    font-size:1.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    padding-left:0.2em;
+    border-left:2px solid #fff;
+    transition:all;
+    transition-duration:2s;
+    transition-timing-function:2;
+}
+.head-6 h3:hover{
+    transform:translate(60px);
+    font-size:1.9em;
+}
+.head-2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    margin:0 auto;
+    width:77%;
+    color:#fff; 
+}
+.head-2 li{
+    list-style:none;
+}
+.head-2 a{
+    text-decoration:none;
+    color:#fff;
+    text-transform:capitalize;
+    font-size:1.05em;
+    font-family:Arial, Helvetica, sans-serif;  
+    transition:all;
+    transition-duration:2s;
+    transition-timing-function:2; 
+}
+.head-2 a:hover{
+    transform:translate(50px);
+    color:gray;
+    border:2px solid #fff;
+    padding:0.5em;
+}
+
+
+.require{
+    background:url(homeimages/logo.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,.6);
+}
+.require h2{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:2em;
+    font-family:sans-serif;
+    font-style:italic;
+    padding-top:3em;
+    transition:all 2s;
+    transition-timing-function:2;
+}
+.require h2:hover{
+    transition:translate(10px);
+    padding:0.6em;
+    border:1px dotted #fff;
+}
+
+input{
+    display:block;
+    width:40%;
+    padding:10px;
+    margin:20px auto;
+    text-transform:uppercase;
+}
+:placeholder-shown{
+    text-transform:uppercase;
+    font-family:sans-serif;
+    font-style:italic;
+}
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:80%;
+    margin:auto;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.pay{
+    padding:2px;
+    background:black;
+    color:#fff;
+    text-align:center;
+
+}

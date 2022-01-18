@@ -18,7 +18,7 @@ body{
     background-position:center;
     background-size:cover;
     background-blend-mode:overlay;
-    background-color:rgba(0,0,0,.9);
+    background-color:rgba(0,0,0,.7);
     position:relative;
 }
 nav{
@@ -181,7 +181,7 @@ nav div{
     /* margin-left:100px; */
     margin-top:20px;
     /* text-transform: capitalize; */
-    font-size:22px;
+    font-size:1em;
     width:30%;
     border:1px solid rgb(139, 137, 137);
     padding:10px;
@@ -325,9 +325,10 @@ nav div{
         display:none;
     }
     .head-4 p:nth-child(1){
-        width:90%;
+        width:70%;
         text-align:center;
         margin-top:2rem;
+        font-size:1em;
         /* padding-bottom:2rem;  */
     }
     .head-4-text{
@@ -347,13 +348,13 @@ nav div{
         font-size:20px;
     }
     .text{
-        width:90%;
+        width:70%;
         flex-direction:column;
         /* margin-bottom:30px; */
     }
     .text p{
         width:100%;
-        font-size:15px;
+        font-size:1em;
         margin-top:15px;
     }
     .up-1{
@@ -361,4 +362,15 @@ nav div{
         text-align:center;
     }
     /* END OF CONTACT */
+}
+
+@media screen and (min-width:1024px){
+    .head-4 p:nth-child(1){
+        width:35%;
+        /* border:5px solid red;     */
+    }
+    .up-1{
+        width:25%;
+        text-align:center;
+    }
 }
